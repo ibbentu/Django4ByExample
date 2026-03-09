@@ -1,0 +1,9 @@
+python -m venv .venv
+
+.\.venv\Scripts\activate
+
+pip index versions django
+
+pip install django~=4.2.0
+
+python -m django --version
